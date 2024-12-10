@@ -1,0 +1,37 @@
+.nav-bar {
+    padding: 16px;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(230, 246, 153);
+    height: 5rem;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.selected {
+    color: #160af0;
+    font-size: 27px;
+}
+
+
+
+.default-nav-bar {
+   color: #265b4a;
+}
+
+a {
+    color: rgb(31, 105, 128);
+    font-size: 25px;
+    text-decoration: dotted;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
